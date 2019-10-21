@@ -22,6 +22,11 @@ name = Englisch
 locale = en_US
 url_prefix = /en/
 
+[alternatives.swg]
+name = Schwäbisch
+url_prefix = /swg/
+locale = de
+
 [alternatives.aut]
 name = Österreich
 url_prefix = /aut/

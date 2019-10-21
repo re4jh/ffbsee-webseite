@@ -1,0 +1,82 @@
+title: D'Router-Firmware mim Browser eischbiela
+---
+preview: /anleitung/web/laptop.jpg
+---
+body:
+
+Dein Router brauchd a bsondre Firmware, um bei Freifunk midzummacha.
+Wo de die herkriagsch vrzella mir dir dohana..
+---
+relevanz: 30
+---
+subtitle: Freifunk-Software eischbiela - ganz oifach
+---
+code:
+
+<center>
+<br/>
+<a href="/anleitung/flashen" class="button primary">Infos zum Software-Eischbiela</a>
+</center>
+<br/><br/><br/>
+---
+content:
+
+Wo ma beim Eischbila dr' Firmware Obacht geba muaß ond wo ma d'richtige Firmware findet schdoht do:
+
+---
+content2:
+
+ Router Auspacka
+-----------------------
+<span class="image fit">
+<img src="/anleitung/web/hardware.jpg"/>
+</span>
+
+Zerschd muaß dr Schdrohmschdeggr (1) ind Schdeckdos. Ond denn muaß ma des Netzwerkkabl (2) mit em Kombjuudr vrbinda. Des isch oine von de geale Schdeggdosa.
+
+<span class="image fit">
+<img src="/anleitung/web/port.jpg"/>
+</span>
+
+ Firmware rablada und inschdalliera
+-------------------------
+
+<span class="image fit">
+<img src="/anleitung/web/version.jpg"/>
+</span>
+
+Mir undrschdützet grad ganz onderschiedliche Routertypa. Du musch also gugga welche Firmwar du brauchsch. Wichtig isch dr' Router-Typ (1) abr au d'Hardware-Version (2). Boide Infos schdanded hinda uffm Abbarad.
+
+Etz guggsch noch dr' passenda Firmware im [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard).
+
+Nochm Aschalta vom Router wardesch no ogfähr 2 Minudda und noch rufsch mim Browser die ``http://192.168.0.1`` auf. Do kommt noch a Formular wo du an Benutzer ond a Kennwort brauchsch. Fir boides nimmsch du ``admin``.
+
+<span class="image fit">
+<img src="/anleitung/web/841.jpg"/>
+</span>
+
+Links im Menü kliggd ma uff "System Tools" ond det no uff "Firmware Upgrade". Noch sodd des ogfähr so ausseha:
+
+<span class="image fit">
+<img src="/anleitung/web/flash.jpg"/>
+</span>
+
+Mit em Knepfle “Browse…” ka ma jetzt sellige Firmware raussuacha, die ma grad rundrglada hod. Etz muasch beschdädiga, dass de dia au wirklich inschdalliera witt und no gohts los. Obacht: Während des lauft derf auf koin Fall dr Schdrohm fehla, sonsch goht's gewaldig schiaf und du kasch die Inschdallation de Hasa geba.
+
+<span class="image fit">
+<img src="/anleitung/web/upload.jpg"/>
+</span>
+
+Wenn d' Inschdallation von dr Firmware ferdig isch, schdardet dr Router nommol nei. Des siehsch ganz oifach weil älle Lämpla vom Router blinka afangat. Zersch blinket se ganz wild und noch ganget se aus.
+
+<span class="image fit">
+<img src="/anleitung/web/wait.jpg"/>
+</span>
+
+Ond jetzt ziehsch dr Schdeggr vom Netzwerkkabl aus deim Kombjuudr und schdeggsch 'n glei widr nei. Noch sodd dein Kombjuudr a neie Adress kriega, die mit "192.168.133" losgoht.
+Etz kasch dein Router mim Browser ibr ``http://192.168.133.1`` erreicha ond so scheene Sacha wia zom Beischbiel Nama und Koordinada fir 'd Karde eischdella.
+Dann isch dein Router fertig und du kasch an dr' blaua Schdeggdos (WAN-Port) 's Indrnet nahengga.
+
+<a href="/anleitung/config/" class="button">Router konfigurieren</a>
+
+Quelle: [Freifunk München](https://ffmuc.net/router-flashen/)

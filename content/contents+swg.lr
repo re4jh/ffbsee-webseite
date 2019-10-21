@@ -1,0 +1,136 @@
+_model: start
+---
+title: Freifunk Bodensee
+---
+welcome:
+
+Freifunk Bodensee
+Freies Netz - Iberall ond fir älle!
+---
+head: Midddoa
+---
+head_link: #first
+---
+body1: Was isch Freifunk?
+---
+body1m:
+
+Freifunk isch a dezentrales, freies WLAN-Funknetz, des vor allem Kombjuudr, Händie ond
+Mobilabberade midenandr verbindet - au mit Anschluss ins große Indrnet.
+Sällichs Netz geits, weil oifach jeder sälbr sein Router uff dr Fenschdrsemsa
+schdellt und do Freifunk romschggt.
+
+Dohana auf onsere Indernetseita vrzähla mir dir, wa mir mit Freifunk älles schaffa wellad
+und warums a guade Idee isch, oifach midzummacha.
+---
+body1t: Freifunk kennalerna
+---
+body2: Midmacha ond Freifunker werda
+---
+body2img: /images/mitmachen.png
+---
+body2l: /anleitung/router/
+---
+body2m: Auf onsere Indrnetseita geits bräzise Oleidonga, dia dr helfet, dein erschda Freifunk-Router uffzumschdella.
+---
+body2t: Du brauchsch bloß so an Freifunk-Router!
+---
+body2b: Weller Router?
+---
+body3: Wie goht des?
+---
+body3img: /images/fragen.png
+---
+body3m:
+
+Hosch du no Froga zum Freifunk?
+Brauchsch du no Hilfe mit dr Technik oder suachsch ebbr mit dem de dribr schwetza kasch?
+Ondr Omschdänd helfed dir die Frequently Asked Questions!
+---
+body3b: Antworta finda
+---
+body3l: /faq/
+---
+body3t: Froga zum Freifunk?
+---
+main: Freifunk Bodensee
+---
+mainimg: /images/FFBSee.svg
+---
+main1: Freifunk-Firmware
+---
+main1m: Wenn au dein Router an Freifunk-Router werra sol, brauchsch du a bsondere ekschtra fir Freifunk gmachte Firmware.
+---
+main2: Karte
+---
+mainimgt: Router flashen
+---
+mainm:
+
+Freifunk hoißt in digidale Netze frei kommuniziera kenna.
+Und mit frei moinet mir jedr derf nei, koinr verlangt vom Nutzr a Geld,
+des Netz ghert alle mitanandr und mir filtret und zensieret nix.
+
+Freifunk isch also a dezentrales und oabhängigs Netz fir Birger mit ama Zugang zum Indrnet. Jedr kah sich koschdalos iber WLAN verbinda, ohne Passwort und ohne Regischdrierung. Jedr derf Freifunk nutza, mitmacha und Freifunk ausbaua.
+
+Freie Netze werdet von eich und ons in Eigareschie uffgebaut und
+gwartet. Jedr schdellt sein WLAN-Router fir den Dadetransfer von
+andere zur Verfügung. So entschdoht a freie Infraschdruggdur. Fir älle.
+
+Freifunk isch a nicht-kommerzielle Initiative fir freie Funknetzwerke.
+
+Mach mid. Und teil au dei Netz mit deine Nochbra und Gäschd.
+---
+main2m: Uff selligra Karta (Meshviewer/Freifunk Map) siehsch du faschd älle Freifunk-Router, die zum Freifunk Bodensee gherad.
+---
+unten: Wie funktioniert Freifunk?
+---
+untenm: In 87 Sekunda vrzählt dr d'Lisa in amma Video, was Freifunk isch und wies funktioniert.
+---
+untenl: /anleitung/
+---
+untent: Wie Freifunk funktioniert
+---
+main1l: https://firmware.ffbsee.de/firmware/
+---
+main1t: Firmware-Rablada
+---
+main1la: /anleitung/flashen/
+---
+main1ta: Anleitung Router flashen
+---
+maina: Mailingliste
+---
+mainal: https://list.ffbsee.de/cgi-bin/mailman/listinfo/freifunk-bodensee
+---
+mainam: Wir schwätzat ibr a bsondre Freifunk-Bodensee-Mailingliste mitnandr. Do kasch di du hier eitraga:
+---
+mainat: Mailingliste abonnieren
+---
+mainala: mailto:freifunk-bodensee@list.ffbsee.de
+---
+mainata: freifunk-bodensee@list.ffbsee.de
+---
+mainb: GitHub
+---
+mainbm: Id bloß d'Firmware sondern au älle Eischdellunga uff unsere Server sind quelloffa ond bei GitHub nochguckbar:
+---
+main2l: https://mate.ffbsee.net/meshviewer/
+---
+main2t: Karte
+---
+mainbl: https://github.com/ffbsee/
+---
+mainbt: GitHub Freifunk Bodensee
+---
+main1fa: fas fa-download
+---
+main2fa: fas fa-map
+---
+mainafa: fas fa-mail-bulk
+---
+mainbfa: fab fa-github
+---
+body1l: /anleitung/
+---
+kalender: yes
