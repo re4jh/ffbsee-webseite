@@ -1,0 +1,77 @@
+title: Informaziona zum Router-Fläscha
+---
+preview: /anleitung/flashen/router.jpg
+---
+body:
+
+Dohana vrzehla mir eich, wie ma Freifunk-Firmware uff em Router eischbiela ka.<br/>
+
+Des hoißt ma au "Router-Flashen".
+
+---
+relevanz: 32
+---
+subtitle: Wie ma die Firmware uff dr Router kriegt
+---
+content:
+
+Wenn ihr eich 'n <a href="/anleitung/router/">Freifunk-Router</a> auguggt hend, gohts nochher drum, uff dem bassende Firmware eizomschbiela.
+Des hoißt ma au "Router-Flashen".
+
+---
+code:
+
+<div class="box" style="color: red;">
+<p>Obacht, beim Fläscha von ama Router mit 'ra falscha Firmware odr bei ama Schdromausfall baim fläscha ka ma sich's Betriebssischdem vom Router fir immer he macha! Meischdens losst sich des no mit ra seriella Konsole repariera, abr halt it immr. Deswega sott ma do bsondrs ufbassa ond it aus Vrseha dr Router vom Schdrom nemma, während der grad a neie Firmware in Schbeicher kopiert.</p>
+
+</div>
+---
+content2:
+
+ Firmware-Sorta
+-------------------------------
+
+Fir jedn Router geits onderschiedliche Firmware-Dateia. Die werrad grob eidoild in ``FACTORY `` ond ``SYSUPGRADE``.
+
++ ``FACTORY`` Firmware-Dadeia sind firs erschde Mol Inschdalliera von ama Router, also um von dr Herschdellr-Firmware *(niegl nagl nei aus dr Fabrik in der ma den Router fabriziert hot)* uff a Freifunk-Firmware zum wechsla.
++ ``SYSUPGRADE`` Firmware braucht ma fir Router, die scho a [OpenWRT](https://openwrt.org/) basierende Firmware kriegt hond. Zom Beischbiel en Freifunk-Router von ara andra   Freifunk-Gruppe odr au en Freifunk-Bodensee-Router.
+
+
+ Firmware finda
+---------------
+
+Um die Firmware zom finda, die fir dein Router basst, geits zum oina den <a href="https://firmware.ffbsee.de/fw-wizard/" >Firmware Wizard</a>  ond zum andra geits au a
+<a href="https://firmware.ffbsee.de/firmware/" >Lischde mit älle Firmware-Dadeia</a>.
+Dodabei isches bsondrs wichtig, dass ihr die bräzise Version von eirem Freifunk-Router kennad. Die schdoht *(wia ma onda bei de Bildla sieht)* ufm Ricka vom Router. Weil die moischde Router von oira Versionsnummr zr andra kompledd vrschieda sei kennad isches wichdig, das dia Versionsnummr **ganz agurad** zammabassd.
+Bei Modelle mid viele vrschiedene Versionsnummra sind die im Firmware Wizard id immr guad sortiert. So kahs mol sei, dass die neischde Version in dr Midde vo dera Lischde schdoht ond halt it am Afang odr End.
+
+
+ Firmware selbr zammabäschdla
+---------------------------
+Mir schreibet schdändig, dass onser Firmware quelloffa isch. Des hoißt, dass dir mit a bissle Erfahrung mid Linux ond dr Shell  dei Firmware selbr ausm Quellcode kompiliera kasch. Genau des häm mir auch gmacht ond des ferdige Ergäbnis im Indrnedd zum ronderlada abotta.
+Dia Firmware mit a bissle Aleidong zom Selbrkompiliera findesch uff  <a href="https://github.com/ffbsee/firmware/" >GitHub</a> odr selbrghoschded uff [gitea.see-base.de/ffbsee](https://gitea.see-base.de/FFBSee/firmware).<br />
+Omergong: Die allermoischde Freifunk-Router findet ma in der Kadegorie ar71xx.
+
+
+ Router Fläscha
+=================
+
+Um aufma Router a Freifunk-Firmware eizomschbiela hots meischdns zwoi Obziona: Dr oifachschde Weg isch a Dadei ibr d' Webobrfläche uff dr Router zom lada ond druff zom warda dass der die selbr inschdalliert. Ond dr andre Weg isches mit ama TFTP-Server die Firmware zr Verfigung zom schdella ond den Router drzua zom bringa, dass der se sich ronder läd ond inschdalliert.
+
+'S hot a baar Routermodelle, bei dene dr Herschdeller den Weg mit dr Inschdallation ibr a Webobrfläche vrbodda hot ond wo ma bloß mit dem TFTP-Server zom Inschdalliera kommt. Wenn's also amol mit dr Webmethode id gladd lauft noch probiersch es am beschda mol mit dr TFTP-Server-Methode. Oft hosch mit dera Methode au Glick on an scho henich glaubta Freifunk-Router lässt sich dodamid wiedr von de Dode uffwecka.
+
+<center>
+<a href="/anleitung/tftp" class="button primary">Router mit TFTP fläscha</a>
+<a href="/anleitung/web" class="button primary">Router mit dr Webobrfläche fläscha</a>
+</center><br/><br/>
+
+Mir helfet dr gern weidr wenn du Probleme beim Eischbiela hosch. Noch kommsch halt amol zumma Freifunk-Treffa odr meldesch dich bei uns.
+
+<center>
+<a href="/kalender" class="button">Termine</a>
+<a href="/kontakt" class="button">Kontakt</a>
+</center>
+<br/><br/>
+
+Noch em Eischbiela von dr Firmware isch der Abberad glei parad. Trotzdem fraia mir uns, wenn du dein Router no konfiguriersch.
+<center><a href="/anleitung/config/" class="button">Router konfiguriera</a></center>

@@ -1,0 +1,96 @@
+title: Routersoftware eischbiela mit ama TFTP-Server
+---
+body: Dohana schdoht, wie de ma Rou.,ter mit ama TFTP-Server zuma Freifunk-Router macha kasch.
+---
+subtitle: Routersoftware eischbiela, aber ohne Webbrowser
+---
+preview: /anleitung/tftp/easy.jpg
+---
+relevanz: 23
+---
+code:
+
+<center>
+<video poster="/anleitung/tftp/video.jpg" class="image fit" preload="none" controls="">
+        <source src="/video/tftp.mp4" type="video/mp4">
+        Video konnte nicht geladen werden. Du findest es auch auf <a href="https://www.boell.de/de/2015/11/30/video-sicher-surfen-einfach-erklaert">boell.de</a>.
+</video>
+<a rel="license" href="https://www.youtube.com/watch?v=4K_yL4RlL7c" target="_blank">
+    <img alt="Creative Commons License" style="border-width:0" src="/images/cc.png"/></a>
+    <p><i>Florian "adlerweb" Knodt</i></p>
+</center>
+---
+content:
+
+Wenn de dir uff daim Router a Freifunk-Software eischbiela witt hosch zwoi Meglichkaita: Oimol ibr "Firmware aktualisieren" uffm Webmenü vom Router odr abr mit ama TFTP-Server. Sgait au Router bei dene ma des mit dem Webmenü gar id macha ka. Ond denn bleibt dir bloß no dr Weg mim TFTP-Server.
+
+ Herrichta:
+-------------------
+Du musch dein Kombjuudr uff ``192.168.0.66/24`` als IPv4-Adress' eischdella, weil der beim Schdarta im Recovery-Modus doher probiert a neie Firmware zom kriega.
+
+Des isch mit ausgschriebener Subnetzmaske dann dia do:
+```
+IPv4 Adresse: 192.168.0.66
+Subnetzmaske: 255.255.255.0
+```
+Wenn du glei no an kloina Switch herrischtesch, wo du dein Kombjuudr ond dein Router verbindesch goht's leichtr.
+
+ TFTP-Server mit Windows:
+------------------------
+
+Wenn du no gar koi TFTP-Server-Brogramm uff deim Windows-Rechnr hosch, na muasch erschdmol oins Inschdalliera.
+
+Do kenntsch grad [openTFTP](https://sourceforge.net/projects/tftp-server/) nehma.
+
+Nochm Inschdalliera hots im Ordnr  ``C:\OpenTFTPServer`` a Dadei OpenTFTPServerMT.ini. Do dinna muss ma jetzt au eitraga auf welle IP-Adress der Server auf Afroga vonama Router lohst. Meischdens isch des sellige 192.168.0.66.
+
+Also schreibsch dir in derra OpenTFTPServerMT.ini im Abschnidd LISTEN-ON no a Zeile mid
+```
+192.168.0.66
+```
+nei.
+
+Etz muaß ma die Dateia mit dera Firmware in dr richtige Ordnr schiaba. Also noch ``C:\OpenTFTPServer\`` ond au mim richtiga Nama.
+Ond ma braucht uff jedn Fall die Dateia die firs erschde Mol eischbiela gmacht send (``FACTORY``). Kriaga duat ma dia mim [Firmware Wizard](https://firmware.ffbsee.de/fw-wizard/).
+
+Der TFTP-Server rennt los, wenn du dobblt auf RunStandAloneMT.bat gliggsch.
+
+Wenn de koin Schniddzr gmacht hosch, noch siehsch jetzt a DOS-Box, meischdns so a schwarzes Käschdle, ond ganz unda schdoht:
+```
+Listening On: 192.168.0.66:69
+```
+Wenn do ebbes von "bind fail" schdoht, noch hosch wahrscheinlich beim Abtippa von der IP-Adress 'n Fählr gmacht.
+
+Dain Router ond dein Kombjuudr misset jetzt mitanandr vrbonda werra. Dodafir schdeksch oi Netzwerk-Kabl von de gelbe Schdeckdosa vom Router bis in Switch ond ois vom Kombjuudr au bis in Switch.
+
+Der Router hot a Knepfle zom Resetta ond des hebsch beim Aschalta scho fescht bis nochm Aschalta all Lichtla aus sind bis auf ois mit ama Schloss-Bildle odr beim v8 ma Zahrädle druff). A klois Bissle lengr heba hilft. Ond noch kaschs Reset-Knepfle los lossa.
+
+Im Käschtle von dr DOS-Box schdoht etz noch welchem Dateinama der Router gfrogt hot. Genau so muaß nochher die Datei mit dr Frimware au hoißa. Also muasch dia wahrscheinlich nommol umbenenna ond des ganze Kladderadatsch mit dem Resetknepfle ond dem Neischdarda vom Router nommol macha.
+
+Wenns klappt kasch im DOS-Käschtle zuagucka wie die Firmware-Datei niebrkobiert wird. Ond wenn noch älles ferdig isch no sott der Router noch a baar Minudda nommol nei schdarda ond dann parat sei fir n Eisatz mit Freifunk.
+
+Obacht: Die feschd eigschdellte IP-Adress am Kombjuudr sott ma am Schluss id vrgessa. Dia muaß widr zrick uff DHCP.
+
+Du kasch des älles au als Filmle agugga:
+--------------------------------------------------------
+---
+content2:
+
+ TFTP-Server mit Linux
+------------
+
+Fir Linux hots glei mehrer mehrere TFTP-Server. Zom Beischbiel den [tftpd-hps](https://help.ubuntu.com/community/TFTP).
+Dein Paketmanager von deim Linux kann dir den meischdns inschdalliera ond noch kasch den mit ama dem Syschdem-Befehl schdarda:
+```
+sudo systemctl start tftpd
+systemctl status tftpd
+```
+Mit ama Status-Befehl ka ma den Ordnr von de Firmware-Images nochgucka.
+Ond au der Linux-Kombjuudr braucht hier ``192.168.0.66/24`` als Adress.
+
+A wengle bled isch, dass ma hier id soviel Log-Ausgaba zoigt kiegt, damit ma woiß wellen Datei-Nama ma braucht. Des schdoht abr im OpenWRT-Wiki.
+
+ Meh Informaziona zu Router:
+-----------------
+
+Genauen Informaziona, also IP-Adressa odr Firmware-(Datei-)Nama, findet ma im <a href="https://openwrt.org/toh/start" class="button primary">OpenWRT-Wiki</a>.
