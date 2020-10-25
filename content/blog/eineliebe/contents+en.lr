@@ -25,9 +25,9 @@ This year, we dragged the Internet out of nowhere with the help of 3 LTE routers
 
 Several LTE antennas were attached to the antenna: one directed towards the next Vaderphone radio mast and the others towards the magenta-colored LT mast. 
 
-We also distributed eight Unify AP-AC Pro over the whole festival area and connected them to each other - partly via mesh but mostly via Ethernet cables.
+We also distributed eight Unifi AP-AC Pro over the whole festival area and connected them to each other - partly via mesh but mostly via Ethernet cables.
 
-The Unify controller was operated locally on a PC-Engine-APU.
+The Unifi controller was operated locally on a PC-Engine-APU.
 This and two Fritzbox 4040 were used as our Freifunk off-loaders.
 
 We had three separate networks: one for the organizers that urgently needed Internet in order to communicate with the world outside such as the artists, one for the ticket office in order to scan the tickets and an open Freifunk network. Open for everyone - as it is our philosophy.

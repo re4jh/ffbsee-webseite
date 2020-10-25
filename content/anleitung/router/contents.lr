@@ -177,15 +177,15 @@ mehrfachem gleichzeitigen Video schauen auf sehr guter Qualität.
 ```
 Für die Freifunk-Installation mit einem Offloader lässt sich als WLAN-Access-Point
 im Prinzip jeder beliebige WLAN-Router verwenden.
-Besonders gute Erfahrungen haben wir mit der Ubiquity Unify AP-AC-Pro gemacht.
+Besonders gute Erfahrungen haben wir mit der Ubiquity Unifi AP-AC-Pro gemacht.
 Dieser lässt sich über einen Controller managen.
 Gerne helfen wir hier bei der Installation weiter.
-Außerdem betreiben wir einen Unify-Controller auf einem der Gateway-Server
+Außerdem betreiben wir einen Unifi-Controller auf einem der Gateway-Server
 und geben euch gerne dort einen Account, bei dem ihr eure eigene Hardware managen könnt.
 ```
-<b>Empfohlene Unify-APs für die Installation mit einem Offloader, die über den WLAN-Controller betrieben werden:</b><br/><br/>
-<a href="https://www.ubnt.com/unifi/unifi-ap-ac-pro/" class="button">Unify AP-AC-Pro</a>
-<a href="https://unifi-mesh.ubnt.com" class="button">Unify-AC-Mesh</a><br/><br/>
+<b>Empfohlene Unifi-APs für die Installation mit einem Offloader, die über den WLAN-Controller betrieben werden:</b><br/><br/>
+<a href="https://www.ubnt.com/unifi/unifi-ap-ac-pro/" class="button">Unifi AP-AC-Pro</a>
+<a href="https://unifi-mesh.ubnt.com" class="button">Unifi-AC-Mesh</a><br/><br/>
 
 <br/><br/><br/>
 <h2 id="schrott">Günstigere Hardware für langsames Freifunk<h2>

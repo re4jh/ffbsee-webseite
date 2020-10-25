@@ -172,16 +172,16 @@ parallel videos in very high quality.
 --------------------------------
 ```
 For Freifunk installations with an off-loader, basically any WiFi router can be used as WiFi AccessPoint.
-We had especially good experiences with the Ubiquity Unify AP-AC-Pro.
-It can be managed via a controller. 
+We had especially good experiences with the Ubiquity Unifi AP-AC-Pro.
+It can be managed via a controller.
 We gladly help with the installation.
-Furthermore, we operate a Unify controller at one of the gateway servers and provide you with an account
-there through which you can manage your own hardware. 
+Furthermore, we operate a Unifi controller at one of the gateway servers and provide you with an account
+there through which you can manage your own hardware.
 
 ```
-<b>Recommended Unify APs for installations with an off-loader that are operated via the WiFi controller:</b><br/><br/>
-<a href="https://www.ubnt.com/unifi/unifi-ap-ac-pro/" class="button">Unify AP-AC-Pro</a>
-<a href="https://unifi-mesh.ubnt.com" class="button">Unify-AC-Mesh</a><br/><br/>
+<b>Recommended Unifi APs for installations with an off-loader that are operated via the WiFi controller:</b><br/><br/>
+<a href="https://www.ubnt.com/unifi/unifi-ap-ac-pro/" class="button">Unifi AP-AC-Pro</a>
+<a href="https://unifi-mesh.ubnt.com" class="button">Unifi-AC-Mesh</a><br/><br/>
 
 <br/><br/><br/>
 <h2 id="schrott">Cheaper hardware for slower Freifunk<h2>

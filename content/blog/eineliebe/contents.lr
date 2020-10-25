@@ -33,9 +33,9 @@ Dieses Jahr haben wir über drei LTE-Router und eine große Antenne das Internet
 
 Auf der Antenne haben wir mehrere LTE-Antennen befestigt: Eine wurde zum nächsten Sendemasten von Vaderphone und die anderen in Richtung des magentafarbenen LTE-Masten ausgerichtet.
 
-Auf dem Festivalgelände haben wir acht Unify AP-AC Pro verteilt. Diese haben wir teilweise per Mesh aber größtenteils per Ethernetkabel miteinander verbunden.
+Auf dem Festivalgelände haben wir acht Unifi AP-AC Pro verteilt. Diese haben wir teilweise per Mesh aber größtenteils per Ethernetkabel miteinander verbunden.
 
-Der Unify-Controller lief lokal auf einer PC-Engine-APU.
+Der Unifi-Controller lief lokal auf einer PC-Engine-APU.
 Diese und zwei Fritzbox 4040 haben unsere Freifunk-Offloader gespielt.
 
 Wir hatten drei separate Netze. Eines für die Orga, die unbedingt Internet braucht, um mit der Außenwelt und den Künstlern zu kommunizieren. Eines für den Eingang, über das Tickets eingescannt wurden. Und ein offenes Freifunk-Netz. Offen für alle. So wie es sich für Freifunk gehört.
