@@ -80,14 +80,11 @@ TP-Link WDR 1043ND
 --------------
 ```
 Der TP-Link WDR 1043 ist auch noch einer der besseren Freifunk-Router.
-Leider sendet er nur auf dem 2.4 GHz-Band, aber das ist ja schon mal etwas.
-Unterstützt werden nur die Modelle v2 bis v5.
+Leider verwendet er nur das 2.4 GHz-Band. Wir unterstützen nur die Modelle v2 bis v5.
 Die Version v1 ist zu schwach und hat sich leider als nicht kompatibel herausgestellt.
-Die Version 5 muss leider über tftp geflashed werden.
-Leider ist der Router mit 40€-80€ immer noch relativ teuer.
+Wer sich für Hardwareversion v5 entscheidet, muss die Firmware per tftp-Flash einspielen.
 
-Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
-Videos schauen auf niedriger bis mittlerer Qualität.
+Für den Preis von 40-80€ bekommt man ein Gerät, dessen Freifunkfähigkeien sich immer noch für Videos mit niedriger und mittlerer Qualität bei maximal einer Hand voll gleichzeitig verbundenen Endgeräten eignen dürfte.
 ```
 <span class="image right"><img src="/anleitung/router/1043.jpg" alt="TP-Link WDR 1043ND"></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a><br/><br/>
