@@ -14,11 +14,11 @@ Hier erfährst du, welche Router wir dir empfehlen können und von welchen Route
 ---
 code:
 
-<center>
-<a href="#teuer" class="button primary">Mittelmäßig gut aber richtig teuer</a><br/><br/>
-<a href="#komplex" class="button primary">Schnell und günstig, aber technisch aufwendig</a><br/><br/>
-<a href="#schrott" class="button">Sehr langsam, aber immerhin günstig</a>
-</center>
+<ul>
+<li><a href="#einsteiger" class="">Einfache Einsteigermodelle (nicht ganz günstig)</a></li>
+<li><a href="#komplex" class="">Komplexe aber gute Freifunk-Installation</a></li>
+<li><a href="#guenstig" class="">Günstige Hardware für langsames Freifunk</a></li>
+</ul>
 <br/><br/>
 ---
 content:
@@ -35,7 +35,7 @@ Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam n
 
 Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router-Flashen</a>
 
-<h2 id="teuer">Gute Freifunk-Router<h2>
+<h2 id="einsteiger">Einfache Einsteigermodelle:<h2>
 <h4>Leider etwas teuer</h4>
 
  Archer C7
@@ -188,7 +188,7 @@ und geben euch gerne dort einen Account, bei dem ihr eure eigene Hardware manage
 <a href="https://unifi-mesh.ubnt.com" class="button">Unifi-AC-Mesh</a><br/><br/>
 
 <br/><br/><br/>
-<h2 id="schrott">Günstigere Hardware für langsames Freifunk<h2>
+<h2 id="guenstig">Günstigere Hardware für langsames Freifunk<h2>
 <h4>Es funktioniert auch, ist aber sehr langsam!</h4>
 
 Auch mit nicht so teurer Hardware lässt sich Freifunk machen. Allerdings darf man dann nicht erwarten, ein Freifunk mit großer Bandbreite zu haben.
