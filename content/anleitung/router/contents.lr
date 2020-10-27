@@ -31,7 +31,7 @@ content2:
 
  Wichtig:
 ===============
-Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version wieder grundlegend geändert hat und komplett andere Ressourcen eingebaut wurden oder eine komplett andere CPU. So ist es nicht selbstverständlich, dass wenn eine Hardware-Revision eines Routers, z. B. die v4.2 funktioniert, dann auch die v4.3 oder v5 kompatibel ist.
+Bei den Freifunk-Routern ist die genaue Hardware-Revision sehr wichtig. Es kam nicht nur einmal vor, dass sich eine Hardware von einer zur nächsten Version grundlegend geändert hat (zum Beispiel durch  einen CPU-Wechsel). Heißt: Weil die Freifunk-Firmware mit der Hardware-Revision v4.2 funktioniert, muss sie nicht zwangsläufig mit der v4.3 oder v5 kompatibel sein.
 
 Zum Installieren der Firmware beachte bitte die <a href="/anleitung/flashen" class="button primary">Anleitung zum Router-Flashen</a>
 
