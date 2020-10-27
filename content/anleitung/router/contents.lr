@@ -90,24 +90,28 @@ Für den Preis von 40-80€ bekommt man ein Gerät, dessen Freifunkfähigkeien s
 <a href="https://www.heise.de/preisvergleich/tp-link-tl-wr1043nd-a1296061.html" class="button">Preisvergleich</a><br/><br/>
 <a href="https://openwrt.org/toh/tp-link/tl-wr1043nd" class="button">Hardware-Informationen</a><br/><br/>
 <a href="https://firmware.ffbsee.de/fw-wizard/?q=TP-Link%E2%81%A3%20TL-WR1043N%2FND%E2%81%A3" class="button primary">Firmware</a><br/><br>
-<a href="/anleitung/tftp" class="button">Router mit TFTP flashen</a><br/><br/><br/><br/>
+<a href="/anleitung/tftp" class="button">Router mit tftp flashen</a><br/><br/><br/><br/>
 
-Ubiquity-Nanostation
+Ubiquiti-Nanostation
 --------------
 ```
-Die Ubiquity-Nanostation eignet sich auch als mittelwertiger Freifunk-Router.
+Die Ubiquiti-Nanostation eignet sich auch als mittelwertiger Freifunk-Router.
 Durch seine Bauform als Sektorantenne sendet er das WLAN in einem 60° Winkel und nicht in alle Richtungen.
-Leider sendet er nur entweder 2.4 GHz oder 5GHz je nach Hardwaremodell, aber das ist ja schon mal etwas.
-Das Modell Nanostation M2 sendet auf 2.4 GHz, das Modell Nanostation M5 auf 5GHz.
-Leider ist der Router mit 40€-80€ immer noch relativ teuer, er eignet sich aber dafür auch bei der richtigen Konfiguration für Richtfunkverbindungen.
+Leider sendet die Nanostation je nach Hardwaremodell nur entweder 2.4 GHz oder 5GHz.
+(Modell M2 sendet auf 2.4 GHz, M5 auf 5GHz.)
 
-Das Freifunk eignet sich für jeglichen möglichen Internetverkehr inklusive
+Mit 40-80 € ist auch dieser Router kein Schnäppchen, eignet sich aber bei der richtigen Konfiguration für Richtfunkverbindungen.
+
+Wer hier mit den hauseigenen Features von Ubiquiti/Unifi arbeiten will, möchte aber vielleicht auch mehrere Geräte an einem Controller bündeln und über extra Gerät also Offloader die Ausleitung des Traffics ins Freifunk-Netzwerk vornehmen. Hierzu haben wir diverse inzwischen diverse Setups mit Ansible bei Github/Gitlab hinterlegt, die wir auf Nachfrage oder bei ausreichend Spruchreifheit auch gerne weitergeben.
+
+Die Freifunk-Verbindung der Nanostation eignet sich für jeglichen möglichen Internetverkehr inklusive
 Videos schauen auf niedriger bis mittlerer Qualität.
+
 ```
 <span class="image right"><img src="/anleitung/router/nanostation.jpg" alt="Ubiquity-Nanostation"></span><br/><br/>
 <a href="https://www.heise.de/preisvergleich/?fs=nanostation&in=" class="button">Preisvergleich</a><br/><br/>
 <a href="http://openwrt.org/toh/start#ubiquiti" class="button">Hardware-Informationen</a><br/><br/>
-<a href="https://firmware.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button primary">Firmware</a><br/><br/><br/><br/>
+<a href="https://firmware.ffbsee.de/fw-wizard/?q=Ubiquiti%E2%81%A3%20NanoStation%E2%81%A3" class="button">Firmware</a><br/><br/><br/><br/>
 
 
 
